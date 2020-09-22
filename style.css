@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#view{
+    margin: 0;
+    padding: 0;
+    min-height: 90vh;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(0,0,0,0.1);
+}
+
+#view h3 {
+    text-align: center;
+    padding: 25px;
+    font-size: 2em;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+#pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product, .payment {
+    padding: 40px;
+}
+
+.product img, .payment img{
+    width: 650px;
+    transition: 0.5s;
+}
+
+.product img:hover, .payment img:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.9);
+}
